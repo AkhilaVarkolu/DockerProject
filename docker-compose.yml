@@ -1,0 +1,12 @@
+---
+version:'3.8'
+sevices:
+  movies:
+    image:
+    ports:
+      - "81:80"
+  train:
+    image:
+    ports:
+      - "82:80"
+~                     
