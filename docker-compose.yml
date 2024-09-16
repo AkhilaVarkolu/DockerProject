@@ -1,16 +1,15 @@
 ---
-version:'3.8'
-sevices:
+version: "3.8"
+services:
   movies:
-    image:
+    image: akhila06112000/train:latest
     ports:
-      - "81:80"
+      - 81:80
     deploy:
-      replicas:3
+      replicas: 3
   train:
-    image:
+    image: akhila06112000/paytm:latest
     ports:
-      - "82:80"
+      - 82:80
     deploy:
-      replicas:3
-             
+      replicas: 3
