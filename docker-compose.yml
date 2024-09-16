@@ -5,8 +5,12 @@ sevices:
     image:
     ports:
       - "81:80"
+    deploy:
+      replicas:3
   train:
     image:
     ports:
       - "82:80"
-~                     
+    deploy:
+      replicas:3
+             
